@@ -1,0 +1,31 @@
+{
+  "name": "The name",
+  "version": "0.0.0",
+  "description": "The description",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "epic",
+    "element"
+  ],
+  "author": "SuperIRis",
+  "license": "ISC",
+	"dependencies": {
+		"express":"*",
+   
+    "mongodb":"*",
+    "mongoose":"*",
+    "socket.io":"*",
+    
+    "express-session": "1.0.4",
+    "cookie-parser": "1.0.1",
+    "body-parser":"*",
+    "ejs":"*",
+    "csurf":"*",
+    "underscore":"*",
+    "numeral":"*"
+	}
+}
